@@ -5,19 +5,61 @@
 	<style>
     body {background-color: powderblue;}
     h1 {color: red;}
-    p {color: blue;}
+    table, th, td {border: 1px solid black;}
+    div {background-color: darkblue; color: orange;}
+    a {color: red;}
   </style>
 </head>
 <body>
 	<h1 color="red"> Many Kinds Of Words </h1>
 	<img src="words-bg.png">
-	<p> There a many different kinds of words. For example there a long words like "Psychotomimetic" and short ones like "no".</p>
-	<p> Here is a link to the dictionary where you will find many different words.</p>
-	<a href="https://dictionary.cambridge.org/">cambridge dictionary</a>
-	<p> Here is a video talking about different kinds of words.</p>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/mr6fqsTjqT0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	<p> random text </p>
-
+	<div>
+		<p> There a many different kinds of words. For example there a long words like "Psychotomimetic" and short ones like "no".</p>
+		<p> Here is a link to the dictionary where you will find many different words.</p>
+		<a href="https://dictionary.cambridge.org/">cambridge dictionary</a>
+		<p> Here is a video talking about different kinds of words.</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/mr6fqsTjqT0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+	<div>
+		<p> Look at some examples for different kinds of words:</p>
+		<table style="width:100%">
+		  <tr>
+		    <th>Nouns</th>
+		    <th>Verbs</th> 
+		    <th>Adjectives</th>
+		  </tr>
+		  <tr>
+		    <td>table</td>
+		    <td>run</td>
+		    <td>tall</td>
+		  </tr>
+		  <tr>
+		    <td>apple</td>
+		    <td>swim</td>
+		    <td>beautiful</td>
+		  </tr>
+		  <tr>
+		    <td>hand</td>
+		    <td>see</td>
+		    <td>tiny</td>
+		  </tr>
+		</table>
+	</div>
+	<div>
+		<p> quiz time! </p>
+		<form action="/action_page.php">
+	  		<input type="text" name="firstname" placeholder="firstname" value="">
+	  		<br>
+	  		<input type="text" name="lastname" placeholder="lastname" value="">
+	  		<br><br>
+	  		Select only adjectives:<br>
+	  		<input type="checkbox" name="word1" value=""> Bike<br>
+	  		<input type="checkbox" name="word2" value=""> Huge<br>
+			<input type="checkbox" name="word3" value="" > Quickly<br>
+			<input type="checkbox" name="word4" value="" > Slow<br><br>
+	  		<input type="submit" value="Submit">
+		</form>
+	</div>
 </body>
 </html>
 
