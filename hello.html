@@ -1,51 +1,49 @@
+<!-- I didn't create a list because i already had a table which i could use to try css with and work on the same idea
+and i didnt want to waste time -->
 <!DOCTYPE html>
 <html>
 <head>
 	<title> Words </title>
-	<style>
-    body {background-color: powderblue;}
-    h1 {color: red;}
-    table, th, td {border: 1px solid black;}
-    div {background-color: darkblue; color: orange;}
-    a {color: red;}
-  </style>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1 color="red"> Many Kinds Of Words </h1>
-	<img src="words-bg.png">
 	<div>
+		<h1> Many Kinds Of Words </h1>
+		<img src="words-bg.png">
+	</div>
+	<div class="generalInfo">
 		<p> There a many different kinds of words. For example there a long words like "Psychotomimetic" and short ones like "no".</p>
 		<p> Here is a link to the dictionary where you will find many different words.</p>
 		<a href="https://dictionary.cambridge.org/">cambridge dictionary</a>
 		<p> Here is a video talking about different kinds of words.</p>
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/mr6fqsTjqT0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
-	<div>
+	<div class="learning">
 		<p> Look at some examples for different kinds of words:</p>
-		<table style="width:100%">
+		<table>
 		  <tr>
-		    <th>Nouns</th>
-		    <th>Verbs</th> 
-		    <th>Adjectives</th>
+		    <th id="noun">Nouns</th>
+		    <th id="verb">Verbs</th> 
+		    <th id="adjective">Adjectives</th>
 		  </tr>
 		  <tr>
-		    <td>table</td>
-		    <td>run</td>
-		    <td>tall</td>
+		    <td id="noun">table</td>
+		    <td id="verb">run</td>
+		    <td id="adjective">tall</td>
 		  </tr>
 		  <tr>
-		    <td>apple</td>
-		    <td>swim</td>
-		    <td>beautiful</td>
+		    <td id="noun">apple</td>
+		    <td id="verb">swim</td>
+		    <td id="adjective">beautiful</td>
 		  </tr>
 		  <tr>
-		    <td>hand</td>
-		    <td>see</td>
-		    <td>tiny</td>
+		    <td id="noun">hand</td>
+		    <td id="verb">see</td>
+		    <td id="adjective">tiny</td>
 		  </tr>
 		</table>
 	</div>
-	<div>
+	<div class="quiz">
 		<p> quiz time! </p>
 		<form action="/action_page.php">
 	  		<input type="text" name="firstname" placeholder="firstname" value="">
@@ -60,6 +58,8 @@
 	  		<input type="submit" value="Submit">
 		</form>
 	</div>
+	<div class="sidebar">
+
+	</div>
 </body>
 </html>
-

@@ -1,0 +1,9 @@
+body {background-color: powderblue;}
+h1 {color: red; font-family: "Ariel", Times, serif; font-size: 70px;}
+table, th, td {border: 2px solid black;}
+div {background-color: darkblue; color: orange; width: 30%; margin: auto; padding-left: 650px; padding-right: 600px;}
+a {color: red;}
+table {width: 100%;}
+#verb {color: yellow;}
+#noun {color: lightgreen;}
+#adjective {color: red;}
